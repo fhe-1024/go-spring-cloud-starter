@@ -1,0 +1,5 @@
+# Project exclude paths
+/dubbo-demo/dubbo-demo-annotation/dubbo-demo-annotation-provider/target/
+/dubbo-demo/dubbo-demo-annotation/target/
+/dubbo-demo/dubbo-demo-interface/target/
+/go-nacos/target/
