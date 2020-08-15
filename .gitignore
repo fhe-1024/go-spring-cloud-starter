@@ -3,3 +3,6 @@
 /dubbo-demo/dubbo-demo-annotation/target/
 /dubbo-demo/dubbo-demo-interface/target/
 /go-nacos/target/
+
+*.iml
+.idea
