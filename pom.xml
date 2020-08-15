@@ -15,6 +15,7 @@
     <modules>
         <module>go-nacos</module>
         <module>dubbo-demo</module>
+
     </modules>
     <packaging>pom</packaging>
     <properties>
