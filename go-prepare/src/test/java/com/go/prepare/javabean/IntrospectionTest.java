@@ -10,6 +10,8 @@ import java.util.stream.Stream;
 
 public class IntrospectionTest {
 
+
+
     @Test
     public void personIntrospectionTest() throws IntrospectionException {
         BeanInfo beanInfo = Introspector.getBeanInfo(Person.class, Object.class);
@@ -20,6 +22,7 @@ public class IntrospectionTest {
                         propertyDescriptor.setPropertyEditorClass(StringToIntegralPropertyEditor.class);
                     }
                 });
+
     }
 
 
