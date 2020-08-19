@@ -4,5 +4,6 @@ spring-cloud-demo项目
 
 
 
-# refreshScope
-# ServiceLoaderFactoryBean
+####### refreshScope
+####### ServiceLoaderFactoryBean
+####### AutowiredAnnotationBeanPostProcessor
