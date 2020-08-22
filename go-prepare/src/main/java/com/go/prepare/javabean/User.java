@@ -1,11 +1,13 @@
 package com.go.prepare.javabean;
 
+import java.io.Serializable;
+
 /**
  * @Author: fhe
  * 努力吧
  * @Date: 2020/8/20 20:26
  */
-public class User {
+public class User implements Serializable {
 
     private String name;
 
