@@ -3,6 +3,7 @@ package com.go.prepare.converter;
 import com.go.prepare.javabean.User;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.core.serializer.support.SerializingConverter;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 
@@ -12,6 +13,7 @@ import org.springframework.util.StringUtils;
  * @Date: 2020/8/20 20:26
  * https://cloud.tencent.com/developer/article/1497687
  */
+@Component
 public class UserConverter implements Converter<String, User> {
 
     @Override
